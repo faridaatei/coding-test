@@ -1,0 +1,11 @@
+from django.shortcuts import form
+
+DATABASE = ("db.rainfall")
+
+
+class User(Model):
+    Amount of rainfall= CharField(max_length=100)
+    
+
+    class Meta:
+        database = DATABASE
